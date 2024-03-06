@@ -2,7 +2,9 @@ const OrganizationIdPage = () => {
 
   return (
     <div>
-      Organization Page!
+      <form action="">
+        
+      </form>
     </div>
   );
 }
