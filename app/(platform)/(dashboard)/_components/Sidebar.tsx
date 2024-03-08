@@ -80,6 +80,7 @@ export const Sidebar = ({ storageKey = "t-sidebar-state" }: SidebarProps) => {
           </Link>
         </Button>
       </div>
+      <Separator className="mb-2"/>
       <Accordion
         type="multiple"
         defaultValue={defaultAccordionValue}
