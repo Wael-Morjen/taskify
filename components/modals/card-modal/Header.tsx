@@ -31,7 +31,7 @@ export const Header = ({ data }: HeaderProps) => {
       setTitle(data.title);
     },
     onError: (error) => {
-      toast.error(error)
+      toast.error(error);
     }
   })
 

@@ -24,7 +24,7 @@ export const CardModal = () => {
       onOpenChange={onClose}
     >
       <DialogContent>
-        {! cardData
+        {!cardData
           ? <Header.Skeleton />
           : <Header data={cardData}/>
         }
