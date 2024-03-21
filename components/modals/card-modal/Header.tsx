@@ -33,8 +33,8 @@ export const Header = ({ data }: HeaderProps) => {
     onError: (error) => {
       toast.error(error);
     }
-  })
-
+  });
+  
   const queryClient = useQueryClient();
   const params = useParams();
 
