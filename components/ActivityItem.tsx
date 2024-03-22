@@ -21,7 +21,7 @@ export const ActivityItem = ({ data }: ActivityItemProps) => {
             {data.userName}
           </span> {generateLogMessage(data)}
         </p>
-        <p>
+        <p className="text-xs text-muted-foreground">
           {format(new Date(data.createdAt), "MMM d, yyyy 'at' h:m a")}
         </p>
       </div>
